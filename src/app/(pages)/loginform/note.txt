@@ -1,0 +1,16 @@
+useState is used to show the initial state and upcomimg changing states of the objects.
+
+async(e) ->here,'e' is the event occurs 
+and e.preventdefault is used to save the event message on the console to check the messge. 
+
+A function can be made async by using async keyword:
+for example:-async function harry() {
+   return 6;
+}
+  harry.then((x)=>{
+    alert(x)
+  })
+
+we can make any function aync and then make promise await.
+-> An async function always ensures that it returns a promise.
+we use .then in aync function becoz it returns promise. 
